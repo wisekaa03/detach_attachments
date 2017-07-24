@@ -1,0 +1,13 @@
+<?php
+
+/* There are two ways to control this plugin:
+   You can either blacklist 'detach_attachments_upload' by adding it
+   to the 'dont_override' array in main.inc.php. In that case
+   the value adjusted here will be used as the attachment limit
+   before detaching, given in MB. */
+$rcmail_config['detach_attachments_upload'] = 0; // MB
+
+/* download links expire after x days */
+$rcmail_config['detach_attachments_expires'] = 7; // integer
+
+$rcmail_config['detach_attachments_debug'] = true;
